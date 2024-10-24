@@ -1,0 +1,58 @@
+    1  git clone https://github.com/vira081280/HW_10.git
+    2  cd HW_10
+    3  touch text_ignore.txt
+    4  ls -l
+    5  cd .gitignore
+    6  cd..
+    7  cd ..
+    8  ls -l
+    9  cd ..
+   10  ls -l
+   11  touch .gitignore
+   12  git add .gitignore
+   13  git add .gitignore
+   14  ls -l
+   15  cd HW_10Bash
+   16  ls -l
+   17  cd HW_10
+   18  ls -l
+   19  touch .gitignore
+   20  ls -l
+   21  git add .gitignore
+   22  git commit -m "Add .gitignore"
+   23  git push origin main
+   24  vim .gitignore
+   25  git status text_ignore.txt
+   26  git add text_ignore.txt
+   27  git config advice.addIgnoredFile false
+   28  git add .gitignore
+   29  ls -l
+   30  git commit -m "Added .gitignore"
+   31  ls -l
+   32  git status
+   33  touch main_test.txt
+   34  git add
+   35  git add main_test.txt
+   36  git commit -m "Added main_test.txt"
+   37  git status
+   38  git log
+   39  git branch
+   40  git checkout -b develop
+   41  ls -l
+   42  git status
+   43  touch develop_test.txt
+   44  git add develop_test.txt
+   45  git commit -m "Added develop_test.txt"
+   46  ls -l
+   47  git checkout main
+   48  ls -l
+   49  git checkout develop
+   50  ls -l
+   51  vim develop_test.txt
+   52  git status
+   53  git add develop_test.txt
+   54  git commit -m "Change develop_test.txt"
+   55  git checkout main
+   56  git merge develop
+   57  git log
+   58  history > command_list.csv
